@@ -1,0 +1,18 @@
+src/
+├─ components/
+│  ├─ Button.jsx
+│  ├─ Card.jsx
+│  ├─ Navbar.jsx
+│  ├─ Footer.jsx
+│  ├─ TaskManager.jsx
+│  ├─ PostsList.jsx
+├─ context/
+│  └─ ThemeContext.jsx
+├─ layout/
+│  └─ Layout.jsx
+├─ pages/
+│  ├─ Home.jsx
+│  ├─ APIPage.jsx
+├─ App.jsx
+├─ main.jsx
+├─ index.css

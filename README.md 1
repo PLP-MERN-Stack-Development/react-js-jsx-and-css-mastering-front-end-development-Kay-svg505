@@ -1,0 +1,111 @@
+PLP Task Manager
+
+A responsive React application built with Vite and Tailwind CSS that allows users to manage tasks and view API data. This project demonstrates component architecture, state management, hooks usage, API integration, and dark/light mode support.
+
+📂 Project Structure
+src/
+├─ components/
+│  ├─ Button.jsx
+│  ├─ Card.jsx
+│  ├─ Navbar.jsx
+│  ├─ Footer.jsx
+│  ├─ TaskManager.jsx
+│  ├─ PostsList.jsx
+├─ context/
+│  └─ ThemeContext.jsx
+├─ layout/
+│  └─ Layout.jsx
+├─ pages/
+│  ├─ Home.jsx
+│  ├─ APIPage.jsx
+├─ App.jsx
+├─ main.jsx
+├─ index.css
+
+🚀 Features
+Task Manager
+
+Add, complete, and delete tasks
+
+Filter tasks: All, Active, Completed
+
+Persistent storage using localStorage
+
+Responsive design with Tailwind CSS
+
+API Integration
+Fetch posts from JSONPlaceholder
+
+Theme Management
+Light/Dark mode using React Context
+Smooth transition between themes
+
+Reusable Components
+Button with multiple variants (primary, secondary, danger, success, warning)
+Card for content layout
+Navbar and Footer
+
+🛠 Setup Instructions
+1. Prerequisites
+
+Node.js v18 or higher
+
+npm (comes with Node.js)
+
+2. Clone the repository
+git clone <your-repo-url>
+cd <your-repo-folder>
+
+3. Install dependencies
+npm install
+
+4. Run the development server
+npm run dev
+
+5. Build for production
+npm run build
+
+6. Deploying
+
+You can deploy using Vercel, Netlify, or GitHub Pages
+
+Example (Vercel):
+
+Install Vercel CLI: npm i -g vercel
+
+Run: vercel and follow prompts
+
+Copy deployment URL to your README
+
+🖼 SCREENSHOTS
+
+Task Manager View-Task-manager.png
+API-API.png
+
+⚡ Technologies Used
+
+React 18
+
+Vite
+
+Tailwind CSS
+
+React Router
+
+Context API for theme management
+
+JSONPlaceholder API for demo data
+
+🎯 Project Outcome
+
+Fully functional React application with multiple reusable components
+
+Task management with state management via React Hooks
+
+API integration with search, pagination, and loading/error handling
+
+Responsive design for mobile, tablet, and desktop
+
+Dark/light mode support
+
+Clean, well-organized code following React best practices

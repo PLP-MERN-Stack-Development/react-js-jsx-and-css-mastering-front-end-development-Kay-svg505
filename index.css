@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: global styles */
+body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional: smooth transition for dark/light mode */
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
